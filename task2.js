@@ -1,7 +1,7 @@
-// let averageGrade = Math.floor(Math.random() * 101);
-// console.log("Оцінка студента" + "=" + averageGrade);
+let averageGrade = Math.floor(Math.random() * 101);
+console.log("Оцінка студента" + "=" + averageGrade);
 
-let averageGrade = 101; //використовувати для перевірки
+// let averageGrade = 101; //використовувати для перевірки
 
 checkGrade(averageGrade);
 
