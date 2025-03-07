@@ -1,7 +1,8 @@
 let averageGrade = Math.floor(Math.random() * 101);
 console.log("Оцінка студента" + "=" + averageGrade);
 
-// let averageGrade = 0; //використовувати для перевірки
+// let averageGrade = -5; //використовувати для перевірки
+// checkGrade(averageGrade);
 
 
 function checkGrade(grade) {
@@ -15,13 +16,13 @@ function checkGrade(grade) {
         console.log( "Дуже добре");
     } else if(grade >=91 && grade <=100) {
         console.log( "Відмінно");
-    } else if(grade >=0 && grade <=101) {
+    } else if(grade <=0 || grade >=101) {
         console.log( "Не валідне значення!!!"); //перевірка для не валідних значень якщо  0 і менше, також якщо 101 і більше
     } 
 }
 
 
-checkGrade(averageGrade);
+
 
 
 
